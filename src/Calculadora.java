@@ -24,12 +24,15 @@ public class Calculadora {
 		soma = valor1 + valor2;
 		subtracao = valor1 - valor2;
 		multiplicacao = valor1 * valor2;
+		//(double) valor2 é um castear o que permite pegar um valor e delimitar o comportamento dele
 		divisao = valor1/(double)valor2;
 		
 		System.out.println("O valor da soma é: " + soma);
 		System.out.println("O valor da subtracão é: " + subtracao);
 		System.out.println("O valor da multiplicação é: " + multiplicacao);
 		System.out.println("O valor da divisão é: " + divisao);
+		
+		leitor.close();
 		
 		
 		
