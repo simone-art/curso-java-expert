@@ -11,8 +11,7 @@ public class Calculadora {
 		int valor2;
 		int soma;
 		int subtracao;
-		int multiplicacao;
-		int divisao;
+		
 		
 		System.out.println("Por favor digite o seu primeiro número: ");
 		valor1 = leitor.nextInt();
@@ -21,8 +20,10 @@ public class Calculadora {
 		valor2 = leitor.nextInt();
 		
 		soma = valor1 + valor2;
+		subtracao = valor1 - valor2;
 		
 		System.out.println("O valor da soma é: " + soma);
+		System.out.println("O valor da subtracão é: " + subtracao);
 		
 		
 	}
